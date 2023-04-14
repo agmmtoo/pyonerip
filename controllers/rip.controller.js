@@ -1,4 +1,6 @@
-import { availableResolutions, rip } from '../ripper/index.js'
+import { availableResolutions } from '../ripper/index.js'
+import rip from '../services/rip-service.js'
+
 
 export async function parseStreamingUrl(req, res) {
     try {
